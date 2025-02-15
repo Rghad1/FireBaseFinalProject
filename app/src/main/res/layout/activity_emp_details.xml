@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Include Top Bar (Assuming you have a top_bar.xml layout) -->
+    <include
+        android:id="@+id/topBarInclude"
+        layout="@layout/top_bar" />
+
+    <!-- Search Bar -->
+
+    <!-- ScrollView Container for Employee Items -->
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topBarInclude"
+        android:layout_margin="8dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:hint="Search..."
+        android:padding="10dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_bar"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:id="@+id/empdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <!-- Floating Add Button (Plus Icon) -->
+    <ImageView
+        android:id="@+id/empadd"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/incorporation"
+        app:tint="#03A9F4"
+        android:padding="10dp"
+        android:elevation="6dp" />
+</RelativeLayout>

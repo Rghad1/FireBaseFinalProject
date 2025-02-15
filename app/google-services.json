@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "530803747308",
+    "project_id": "crudproject-d504c",
+    "storage_bucket": "crudproject-d504c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530803747308:android:82f2fc02185714608178c9",
+        "android_client_info": {
+          "package_name": "com.example.cafesys"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGTHcFwIECi9ylsK_dwjNeLtpZlzd3w4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530803747308:android:640654c4b522f8ca8178c9",
+        "android_client_info": {
+          "package_name": "com.example.firebasefinalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGTHcFwIECi9ylsK_dwjNeLtpZlzd3w4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530803747308:android:90e74d7902b5665d8178c9",
+        "android_client_info": {
+          "package_name": "com.example.firebaseproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGTHcFwIECi9ylsK_dwjNeLtpZlzd3w4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

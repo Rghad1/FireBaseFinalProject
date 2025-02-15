@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Include Top Bar (Only Once) -->
+    <include
+        android:id="@+id/topBarInclude"
+        layout="@layout/top_bar"
+        />
+
+    <!-- Search Bar (Newly Added) -->
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search..."
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:layout_margin="8dp" />
+
+    <include
+        layout="@layout/menu_items"
+        />
+
+</LinearLayout>
